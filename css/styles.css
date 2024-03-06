@@ -1,0 +1,197 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-cyrillic_latin-500.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+
+:root {
+    --color-brand: #2b7fff;
+    --color-primary-dark: #011c44;
+    --color-primary-light: #fff;
+    --color-hero-appointment: #4a4a4a;
+    --color-choose-text: #000;
+    --color-copyright: #747272;
+}
+
+/* Base */
+body {
+    color: var(--color-primary-dark);
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+h1 {
+    font-family: 'play', sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.8143;
+}
+
+h2 {
+    font-family: 'play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.accent {
+    color: var(--color-brand);
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.section-title {
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Button */
+.button {
+    color: var(--color-primary-light);
+    background-color: var(--color-brand);
+    font-weight: 600;
+    border: var(--color-brand);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: var(--color-primary-dark);
+    background-color: transparent;
+    border: 2px solid var(--color-brand);
+    border-radius: 32px;
+}
+
+/* Link */
+.link {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+
+}
+
+.link:hover {
+    color: var(--color-brand);
+    font-weight: 700;
+}
+
+/* Footer link */
+.footer-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: var(--color-brand);
+    font-weight: 700;
+}
+
+/* Adress link */
+.adress-link {
+    color: var(--color-primary-light);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.adress-link:hover {
+    color: var(--color-brand);
+    font-weight: 600;
+}
+
+/* Hero section */
+.hero-title {
+    color: var(--color-brand);
+}
+
+.hero-appointment {
+    color: var(--color-hero-appointment);
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* About section */
+.weight {
+    font-weight: 600;
+}
+
+.about-text {
+    font-size: 22px;
+    line-height: 1.7273;
+}
+
+/* Choose section */
+.choose-text {
+    color: var(--color-choose-text);
+    line-height: 1.3333;
+    text-align: center;
+}
+
+/* Procedure section */
+.procedure-title {
+    color: var(--color-primary-light);
+    font-size: 22px;
+    line-height: 1.1818;
+    text-align: center;
+}
+
+/* Contacts section */
+.contacts-appointment {
+    color: var(--color-primary-light);
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-primary-dark);
+}
+
+.adress-copyright {
+    color: var(--color-copyright);
+    font-size: 13px;
+}
