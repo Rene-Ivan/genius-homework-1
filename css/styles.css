@@ -51,7 +51,6 @@
 body {
     color: var(--color-primary-dark);
     font-family: 'roboto', sans-serif;
-    font-weight: 400;
     font-size: 18px;
 }
 
@@ -90,10 +89,10 @@ address {
 
 /* Button */
 .button {
-    color: var(--color-primary-light);
+    color: var(--color-primary-light, #fff);
     background-color: var(--color-brand);
     font-weight: 600;
-    border: var(--color-brand);
+    border: 2px solid var(--color-brand);
     border-radius: 32px;
     cursor: pointer;
 }
@@ -101,8 +100,6 @@ address {
 .button:hover {
     color: var(--color-primary-dark);
     background-color: transparent;
-    border: 2px solid var(--color-brand);
-    border-radius: 32px;
 }
 
 /* Link */
@@ -160,7 +157,7 @@ address {
 
 .about-text {
     font-size: 22px;
-    line-height: 1.7273;
+    line-height: 38px;
 }
 
 /* Choose section */
